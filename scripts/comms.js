@@ -3,6 +3,7 @@
     @returns {string}
 */
 
+
 export async function getTempApiToken() {
     try {
         const response = await fetch("https://accounts.spotify.com/api/token", {

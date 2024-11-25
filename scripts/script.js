@@ -143,6 +143,11 @@ function addEventListeners(playlistID) {
         document.getElementById("findSongModalContainer").style.display = "flex"
     })
 
+    document.getElementById("closeModalButton").addEventListener("click", () => {
+        document.getElementById("findSongModalContainer").style.display = "none"
+    })
+
+
 }
 
 
